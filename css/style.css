@@ -1,0 +1,38 @@
+.product {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap:50px ;
+}
+
+.product-card {
+  width: 100%;
+  box-shadow: 0px 0px 10px #00000015;
+  border-radius: 15px;
+  
+}
+.product-card img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.product-info{
+  padding: 10px;
+  text-align: center;
+
+}
+.product-info h2{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgb(37, 37, 37);
+
+}
+.product-info p{
+  color: rgb(104, 103, 103);
+  line-height: 1.5;
+}
